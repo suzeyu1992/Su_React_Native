@@ -10,13 +10,6 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "IsRN";
+        return "跳转ok";
     }
-
-     @Override
-        public void onBackPressed() {
-            super.onBackPressed();
-            Intent intent = new Intent(this, DetailActivity.class);
-            startActivity(intent);
-        }
 }
